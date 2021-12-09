@@ -1,0 +1,11 @@
+.headerbar {
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+}
+
+.headerbar-items {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}

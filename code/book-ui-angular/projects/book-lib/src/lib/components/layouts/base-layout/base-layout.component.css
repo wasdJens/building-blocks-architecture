@@ -1,0 +1,32 @@
+.base-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.base-layout-header {
+  border: 2px solid coral;
+  padding: 12px;
+}
+
+.base-layout-content {
+  border: 2px dotted green;
+  padding: 12px;
+}
+
+.base-layout-content-recommended {
+  border: 3px solid blue;
+  padding: 4px;
+}
+
+.base-layout-content-explore {
+  border: 3px solid yellowgreen;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 4px;
+}
+
+.base-layout-content-new {
+  border: 3px solid red;
+  padding: 4px;
+}

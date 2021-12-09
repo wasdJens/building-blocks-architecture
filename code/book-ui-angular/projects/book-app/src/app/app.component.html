@@ -1,0 +1,6 @@
+<lib-base-layout>
+  <lib-headerbar header [title]="'My book shop'" [menuItems]="['Books', 'News', 'Blog']"></lib-headerbar>
+  <lib-book-list-container [title]="'Personal recommendations'" [books]="recommended" recommended></lib-book-list-container>
+  <lib-book-explore-container explore></lib-book-explore-container>
+  <lib-book-list-container [title]="'Explore new books'" [books]="latest" new></lib-book-list-container>
+</lib-base-layout>

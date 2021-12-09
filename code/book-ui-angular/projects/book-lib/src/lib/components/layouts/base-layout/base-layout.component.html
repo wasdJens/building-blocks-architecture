@@ -1,0 +1,16 @@
+<div class="base-layout">
+  <div class="base-layout-header">
+    <ng-content select="[header]"></ng-content>
+  </div>
+  <div class="base-layout-content">
+    <div class="base-layout-content-recommended">
+      <ng-content select="[recommended]"></ng-content>
+    </div>
+    <div class="base-layout-content-explore">
+      <ng-content select="[explore]"></ng-content>
+    </div>
+    <div class="base-layout-content-new">
+      <ng-content select="[new]"></ng-content>
+    </div>
+  </div>
+</div>

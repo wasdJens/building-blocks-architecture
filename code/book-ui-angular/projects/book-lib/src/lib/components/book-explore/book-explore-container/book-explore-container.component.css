@@ -1,0 +1,11 @@
+.book-explore-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-explore-container-search {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
